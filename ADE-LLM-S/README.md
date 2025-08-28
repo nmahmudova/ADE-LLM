@@ -27,7 +27,7 @@ This design ensures the model not only **detects anomalies** but also **explains
 - **dataset_pre.py** – Preprocessing scripts for datasets
 - **eval-BPAD.py** – Script for evaluating the fine-tuned LLaMA model
 - **fine-tune-BPAD.py** – Script for fine-tuning LLaMA model on the prepared dataset
-- **generation/** – Scripts for generating anomolous traces
+- **generation/** – Scripts for generating anomalous traces
 - **labelparser/** – Utilities to parse and handle labels in datasets
 - **llama-fine-tuned/** – Directory containing fine-tuned LLaMA model checkpoints
 - **processmining/** – Scripts related to process simulation
@@ -143,7 +143,7 @@ These .xes files can be used to test the framework on real-world event data.
 We evaluated ADE-LLM-S on two datasets: `D1` (unseen processes) and `D2` (known processes), comparing both **anomaly detection** and **explanation performance** with DABL.  
 Overall, ADE-LLM-S achieves higher detection accuracy and more precise anomaly explanations across both datasets.
 
-> **Note:** Results are replicated from Wei Guan et al., *"DABL: Detecting Semantic Anomalies in Business Processes Using Large Language Models"* (2024).
+> **Note:** DABL results were obtained by running the original DABL implementation on the same datasets.
 
 #### Detection Results using D1
 
