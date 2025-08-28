@@ -37,3 +37,31 @@ This design ensures the model not only **detects anomalies** but also **explains
 - **utils/** – General utility scripts
 - **README.md** – Documentation (this file)
 
+## Setup / Installation
+
+Follow these steps to set up the ADE-LLM-S framework on your machine.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd ADE-LLM-S
+
+2. Create a Virtual Environment
+It is recommended to use a virtual environment to avoid dependency conflicts.
+
+python -m venv venv
+# Activate the environment:
+# Linux / Mac
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+3. Install Dependencies
+All required Python packages are listed in requirements.txt.
+
+pip install -r requirements.txt
+
+4. Obtain LLaMA Model Weights
+ADE-LLM-S uses the LLaMA 3.1-8B Instruct model as the core component.
+Due to licensing restrictions, the weights are not included in this repository.
+Request access via Meta AI and follow Hugging Face instructions to download and use the model.
