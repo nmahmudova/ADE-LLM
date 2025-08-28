@@ -94,3 +94,30 @@ The folder structure should look like this:
     - `LICENSE.txt`
     - `README.txt`
 
+### 6. Generate Datasets
+
+To prepare the datasets, run the following command from the root directory:
+
+```bash
+python dataset_pre.py
+```
+
+We have also provided pre-generated test datasets D1 and D2 in the dataset/ folder:
+- test_dataset_1.jsonl corresponds to D1 and is used for evaluating anomaly detection performance.
+- test_dataset_cause_1.jsonl contains only the anomalous traces from D1, for assessing the explanation of anomaly causes.
+- Similarly, the corresponding files for D2 are also included for testing detection and explanation performance.
+
+### 7. Fine-tune LLaMA (Optional)
+You can fine-tune the model if desired. This step can be skipped if you prefer to use our pre-fine-tuned model llama-fine-tuned.
+To fine-tune LLaMA from the root directory:
+```bash
+python fine-tune-BPAD.py
+```
+This will produce the fine-tuned model llama-fine-tuned ready for inference.
+
+### 8. Evaluate on Test Dataset
+To evaluate the model on the provided test datasets, run:
+```bash
+python eval-BPAD.py
+```
+This will compute anomaly detection metrics and, if applicable, generate explanations for detected anomalies.
