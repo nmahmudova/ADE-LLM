@@ -121,3 +121,19 @@ To evaluate the model on the provided test datasets, run:
 python eval-BPAD.py
 ```
 This will compute anomaly detection metrics and, if applicable, generate explanations for detected anomalies.
+
+### 9. Running Tests on Your Own Real-World Event Log
+
+You can perform semantic anomaly detection on your own `.xes` event logs using our fine-tuned model (`llama-13b-int4-dolly`). From the root directory, run:
+
+```bash
+python test_realLog.py --data_path dataset/BPIC20_PermitLog.xes
+```
+This command applies the fine-tuned model directly to your specified event log.
+We also provide example real-world logs in the dataset/ folder as zip files:
+- BPIC20_PermitLog.zip
+- Road_Traffic_Fine_Management_Process.zip
+After unzipping these files, you will get:
+- BPIC20_PermitLog.xes
+- Road_Traffic_Fine_Management_Process.xes
+These .xes files can be used to test the framework on real-world event data.
