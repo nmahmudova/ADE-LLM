@@ -45,23 +45,23 @@ Follow these steps to set up the ADE-LLM-S framework on your machine.
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd ADE-LLM-S
-
-2. Create a Virtual Environment
+```
+### 2. Create a Virtual Environment
 It is recommended to use a virtual environment to avoid dependency conflicts.
-
+```bash
 python -m venv venv
 # Activate the environment:
 # Linux / Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
-
-3. Install Dependencies
+```
+### 3. Install Dependencies
 All required Python packages are listed in requirements.txt.
-
+```bash
 pip install -r requirements.txt
-
-4. Obtain LLaMA Model Weights
+```
+### 4. Obtain LLaMA Model Weights
 ADE-LLM-S uses the LLaMA 3.1-8B Instruct model as the core component.
 Due to licensing restrictions, the weights are not included in this repository.
 Request access via Meta AI and follow Hugging Face instructions to download and use the model.
