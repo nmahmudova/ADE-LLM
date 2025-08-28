@@ -140,12 +140,25 @@ These .xes files can be used to test the framework on real-world event data.
 
 ### Results
 
-The following table compares supervised anomaly detection performance between **DABL** and **ADE-LLM-S** on test datasets `D1` (unseen processes) and `D2` (known processes):
+The following tables compare supervised anomaly detection performance between **DABL** and **ADE-LLM-S** on test datasets `D1` (unseen processes) and `D2` (known processes).  
+> **Note:** Results are replicated from Wei Guan et al., *"DABL: Detecting Semantic Anomalies in Business Processes Using Large Language Models"* (2024).
 
-| Metric       | DABL D1 | DABL D2 | ADE-LLM-S D1 | ADE-LLM-S D2 |
-|-------------|---------|---------|--------------|--------------|
-| Precision (%) | 87.57  | 87.41  | **96.87**    | **97.57**    |
-| Recall (%)    | 91.12  | 87.69  | **92.34**    | **93.99**    |
-| F1-score (%)  | 89.31  | 87.55  | **94.55**    | **95.75**    |
-| Accuracy (%)  | 89.36  | 88.04  | **94.81**    | **96.00**    |
+#### Test Dataset D1 (Unseen Processes)
+
+| Metric       | DABL | ADE-LLM-S |
+|-------------|------|------------|
+| Precision (%) | 87.57 | **96.87** |
+| Recall (%)    | 91.12 | **92.34** |
+| F1-score (%)  | 89.31 | **94.55** |
+| Accuracy (%)  | 89.36 | **94.81** |
+
+#### Test Dataset D2 (Known Processes)
+
+| Metric       | DABL | ADE-LLM-S |
+|-------------|------|------------|
+| Precision (%) | 87.41 | **97.57** |
+| Recall (%)    | 87.69 | **93.99** |
+| F1-score (%)  | 87.55 | **95.75** |
+| Accuracy (%)  | 88.04 | **96.00** |
+
 
