@@ -62,6 +62,6 @@ All required Python packages are listed in requirements.txt.
 pip install -r requirements.txt
 ```
 ### 4. Obtain LLaMA Model Weights
-- **ADE-LLM-S uses the LLaMA 3.1-8B Instruct model as the core component.
-- **Due to licensing restrictions, the weights are not included in this repository.
-- **Request access via Meta AI and follow Hugging Face instructions to download and use the model.
+- ADE-LLM-S uses the LLaMA 3.1-8B Instruct model as the core component.
+- Due to licensing restrictions, the weights are not included in this repository.
+- Request access via Meta AI and follow Hugging Face instructions to download and use the model.
