@@ -22,19 +22,18 @@ This design ensures the model not only **detects anomalies** but also **explains
 ---
 
 ## Folder Structure
-ADE-LLM-S/
-├── conversion/ # Scripts for converting data formats
-├── dataset/ # Dataset files used for testing
-├── dataset_pre.py # Preprocessing scripts for datasets
-├── eval-BPAD.py # Script for evaluating the fine-tuned LLaMA model
-├── fine-tune-BPAD.py # Script for fine-tuning LLaMA model on the prepared dataset
-├── generation/ # Scripts for generating anomalies
-├── labelparser/ # Utilities to parse and handle labels in datasets
-├── llama-fine-tuned/ # Directory containing fine-tuned LLaMA model checkpoints
-├── processmining/ # Scripts related to process simulation
-├── prompt.py # Scripts defining prompts for LLaMA inference
-├── requirements.txt # Python dependencies for ADE-LLM-S
-├── test_realLog.py # Script to run inference on real logs
-├── utils/ # General utility scripts
-└── README.md # Documentation (this file)
+- **conversion/** – Scripts or utilities for converting data formats
+- **dataset/** – Dataset files used for training and evaluation
+- **dataset_pre.py** – Preprocessing scripts for datasets
+- **eval-BPAD.py** – Script for evaluating the fine-tuned LLaMA model
+- **fine-tune-BPAD.py** – Script for fine-tuning LLaMA model on the prepared dataset
+- **generation/** – Scripts for generating traces or examples
+- **labelparser/** – Utilities to parse and handle labels in datasets
+- **llama-fine-tuned/** – Directory containing fine-tuned LLaMA model checkpoints
+- **processmining/** – Scripts related to process simulation or process modeling
+- **prompt.py** – Scripts defining prompts for LLaMA inference
+- **requirements.txt** – Python dependencies for ADE-LLM-S
+- **test_realLog.py** – Script to run inference on real logs
+- **utils/** – General utility scripts
+- **README.md** – Documentation (this file)
 
