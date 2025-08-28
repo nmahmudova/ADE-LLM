@@ -43,7 +43,7 @@ Follow these steps to set up the ADE-LLM-S framework on your machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/nmahmudova/ADE-LLM.git
 cd ADE-LLM-S
 ```
 ### 2. Create a Virtual Environment
