@@ -26,4 +26,31 @@ The project contains the following files:
 - **train.py** – Trains the autoencoder on the encoded prefix data.  
 - **detect.py** – Uses the trained model to detect anomalies in business process executions.  
 - **run_pipeline_results.py** – Runs the full pipeline end-to-end and saves the results into output files.  
-- **requirements.txt** – Lists all required Python packages for the project.  
+- **requirements.txt** – Lists all required Python packages for the project.
+
+## Setup
+
+Follow the steps below to set up the project environment and run the pipeline:
+
+1. **Clone the repository**  
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+
+2. Create a virtual environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the full pipeline
+```bash
+python run_pipeline_results.py
+```
+This will execute all steps, from data preparation and encoding to training, anomaly detection, and explanation generation. Results will be saved in the output files automatically.
