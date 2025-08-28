@@ -19,14 +19,11 @@ Each step is illustrated with examples to show how raw process data is systemati
 
 The project contains the following files:
 
-- **data_loader.py** – Handles loading and preprocessing of raw event log data.  
-- **prepare_prefix_data.py** – Converts complete traces into prefixes for early anomaly detection.  
-- **encoder.py** – Encodes symbolic prefixes into numerical representations suitable for machine learning.  
+- **data_loader.py** – Handles loading and preprocessing of raw event log data
+- **prepare_prefix_data.py** – Converts complete traces into prefixes  
+- **encoder.py** – Encodes prefixes into numerical representations using OneHot or Word2Vec encoding
 - **model.py** – Defines the autoencoder model used to learn normal process behavior.  
 - **train.py** – Trains the autoencoder on the encoded prefix data.  
 - **detect.py** – Uses the trained model to detect anomalies in business process executions.  
-- **prompt.py** – Handles natural language explanations of detected anomalies.  
 - **run_pipeline_results.py** – Runs the full pipeline end-to-end and saves the results into output files.  
 - **requirements.txt** – Lists all required Python packages for the project.  
-
-This structure allows for modular development, enabling easy updates to individual components such as data processing, modeling, or explanation generation.
