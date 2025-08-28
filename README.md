@@ -1,4 +1,4 @@
-# ADE-LLM: Anomaly Detection and Explanation in Event Logs
+# ADE-LLM: Anomaly Detection and Explanation using LLMs
 
 Anomaly detection in event logs is crucial for ensuring the reliability, efficiency, and compliance of process-oriented systems such as business workflows, IT operations, and manufacturing pipelines. Semantic anomalies—unexpected or contextually inconsistent activity sequences—are particularly challenging to detect and explain because they rely on process semantics and long-range dependencies. While recent approaches have improved detection accuracy, generating human-understandable explanations remains underexplored.
 
