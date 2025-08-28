@@ -8,7 +8,7 @@ At its core, the approach leverages the reasoning capabilities of **large langua
 ---
 
 ## Framework Overview
-<img src="framework.svg" width="800px" alt="Framework Diagram">
+<img src="framework.svg" width="600px" alt="Framework Diagram">
 
 The supervised pipeline integrates:
 - **Business process simulation**: process models generate realistic normal traces.  
