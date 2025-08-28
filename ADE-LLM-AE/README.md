@@ -6,7 +6,7 @@ The **ADE-LLM-AE** model addresses the challenge of detecting anomalies in busin
 
 The framework follows a systematic pipeline:
 
-1. **Event Logs** – Raw data capturing business process executions are collected.
+1. **Event Logs** – Raw data capturing business process executions are collected. Artificial datasets are located in Data folder.
 2. **Prefix Extraction** – Complete traces are decomposed into partial sequences to enable early anomaly detection.
 3. **Encoding** – Symbolic prefixes are transformed into numerical representations suitable for machine learning models.
 4. **Autoencoder** – An unsupervised neural network learns to reconstruct normal process behavior from encoded prefixes.
