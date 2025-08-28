@@ -124,7 +124,7 @@ This will compute anomaly detection metrics and, if applicable, generate explana
 
 ### 9. Running Tests on Your Own Real-World Event Log
 
-You can perform semantic anomaly detection on your own `.xes` event logs using our fine-tuned model (`llama-13b-int4-dolly`). From the root directory, run:
+You can perform semantic anomaly detection on your own `.xes` event logs using our fine-tuned model (`llama-fine-tuned`). From the root directory, run:
 
 ```bash
 python test_realLog.py --data_path dataset/BPIC20_PermitLog.xes
