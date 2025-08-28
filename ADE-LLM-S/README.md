@@ -161,4 +161,22 @@ The following tables compare supervised anomaly detection performance between **
 | F1-score (%)  | 87.55 | **95.75** |
 | Accuracy (%)  | 88.04 | **96.00** |
 
+### Explanation Results
+
+The following tables show **interpretability performance** of ADE-LLM-S compared to DABL in identifying the causes of anomalies, measured using **ROUGE-2** and **ROUGE-L** (Precision, Recall, F1-score).  
+> **Note:** DABL results were obtained via replication on the same datasets.
+
+#### Dataset D1
+
+| Method     | ROUGE-2 Precision (%) | ROUGE-2 Recall (%) | ROUGE-2 F1 (%) | ROUGE-L Precision (%) | ROUGE-L Recall (%) | ROUGE-L F1 (%) |
+|------------|--------------------|-----------------|---------------|--------------------|-----------------|---------------|
+| ADE-LLM-S  | **73.22**           | 70.57           | **71.64**     | **80.09**           | **77.10**       | **78.28**     |
+| DABL       | 70.40               | **71.31**       | 70.41         | 75.23               | 76.86           | 75.52         |
+
+#### Dataset D2
+
+| Method     | ROUGE-2 Precision (%) | ROUGE-2 Recall (%) | ROUGE-2 F1 (%) | ROUGE-L Precision (%) | ROUGE-L Recall (%) | ROUGE-L F1 (%) |
+|------------|--------------------|-----------------|---------------|--------------------|-----------------|---------------|
+| ADE-LLM-S  | **78.33**           | **77.59**       | **77.71**     | **82.79**           | **82.19**       | **82.21**     |
+| DABL       | 73.08               | 74.46           | 73.27         | 77.60               | 79.41           | 77.97         |
 
