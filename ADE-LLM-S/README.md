@@ -137,3 +137,15 @@ After unzipping these files, you will get:
 - BPIC20_PermitLog.xes
 - Road_Traffic_Fine_Management_Process.xes
 These .xes files can be used to test the framework on real-world event data.
+
+### Results
+
+The following table compares supervised anomaly detection performance between **DABL** and **ADE-LLM-S** on test datasets `D1` (unseen processes) and `D2` (known processes):
+
+| Metric       | DABL D1 | DABL D2 | ADE-LLM-S D1 | ADE-LLM-S D2 |
+|-------------|---------|---------|--------------|--------------|
+| Precision (%) | 87.57  | 87.41  | **96.87**    | **97.57**    |
+| Recall (%)    | 91.12  | 87.69  | **92.34**    | **93.99**    |
+| F1-score (%)  | 89.31  | 87.55  | **94.55**    | **95.75**    |
+| Accuracy (%)  | 89.36  | 88.04  | **94.81**    | **96.00**    |
+
