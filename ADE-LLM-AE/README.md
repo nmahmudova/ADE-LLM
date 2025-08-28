@@ -34,8 +34,8 @@ Follow the steps below to set up the project environment and run the pipeline:
 
 1. **Clone the repository**  
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/nmahmudova/ADE-LLM.git
+cd ADE-LLM-AE
 ```
 
 2. Create a virtual environment (optional but recommended)
