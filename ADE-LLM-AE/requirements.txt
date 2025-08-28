@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+tensorflow
+matplotlib
+transformers 
+peft 
+bitsandbytes 
+accelerate 
+datasets
