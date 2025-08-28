@@ -29,7 +29,6 @@ This design ensures the model not only **detects anomalies** but also **explains
 - **fine-tune-BPAD.py** – Script for fine-tuning LLaMA model on the prepared dataset
 - **generation/** – Scripts for generating anomalous traces
 - **labelparser/** – Utilities to parse and handle labels in datasets
-- **llama-fine-tuned/** – Directory containing fine-tuned LLaMA model checkpoints
 - **processmining/** – Scripts related to process simulation
 - **prompt.py** – Scripts defining prompts for LLaMA inference
 - **requirements.txt** – Python dependencies for ADE-LLM-S
@@ -107,8 +106,8 @@ We have also provided pre-generated test datasets D1 and D2 in the dataset/ fold
 - test_dataset_cause_1.jsonl contains only the anomalous traces from D1, for assessing the explanation of anomaly causes.
 - Similarly, the corresponding files for D2 are also included for testing detection and explanation performance.
 
-### 7. Fine-tune LLaMA (Optional)
-You can fine-tune the model if desired. This step can be skipped if you prefer to use our pre-fine-tuned model llama-fine-tuned.
+### 7. Fine-tune LLaMA
+You can fine-tune the model if desired. This step can be skipped if you prefer to use our pre-fine-tuned model from [narminam/ADE-LLM](https://huggingface.co/narminam/ADE-LLM).
 To fine-tune LLaMA from the root directory:
 ```bash
 python fine-tune-BPAD.py
