@@ -66,3 +66,31 @@ pip install -r requirements.txt
 - Due to licensing restrictions, the weights are not included in this repository.
 - Request access via Hugging Face: [LLaMA 3.1-8B Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)
 
+### 5. Download Process Model Datasets
+
+Download the following datasets and save them under `/dataset/process_model`:
+
+1. **BPM Academic Initiative (BPMAI)**  
+   [Download from Zenodo](https://zenodo.org/records/3758705)
+
+2. **Fundamentals of Business Process Management (FBPM)**  
+   [Download from FBPM site](http://fundamentals-of-bpm.org/process-model-collections/)
+
+3. **SAP Signavio Academic Models (SAP-SAM)**  
+   [Download from Zenodo](https://zenodo.org/records/7012043)
+
+The folder structure should look like this:
+dataset/process_model/
+├── BPMAI/
+│ ├── description.txt
+│ └── models/
+├── FBPM2-ProcessModels/
+│ ├── Chapter1/
+│ ├── ...
+│ ├── Chapter11/
+│ └── info.txt
+├── sap_sam_2022/
+│ ├── models/
+│ ├── LICENSE.txt
+│ └── README.txt
+
