@@ -80,17 +80,17 @@ Download the following datasets and save them under `/dataset/process_model`:
    [Download from Zenodo](https://zenodo.org/records/7012043)
 
 The folder structure should look like this:
-dataset/process_model/
-├── BPMAI/
-│ ├── description.txt
-│ └── models/
-├── FBPM2-ProcessModels/
-│ ├── Chapter1/
-│ ├── ...
-│ ├── Chapter11/
-│ └── info.txt
-├── sap_sam_2022/
-│ ├── models/
-│ ├── LICENSE.txt
-│ └── README.txt
+- `dataset/process_model/`
+  - `BPMAI/`
+    - `description.txt`
+    - `models/`
+  - `FBPM2-ProcessModels/`
+    - `Chapter1/`
+    - …
+    - `Chapter11/`
+    - `info.txt`
+  - `sap_sam_2022/`
+    - `models/`
+    - `LICENSE.txt`
+    - `README.txt`
 
